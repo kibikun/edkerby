@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/media.css">
+    <!--  FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Kerby's Portfolio</title>
+</head>
+
+<body>
+    <main>
+        <div class="wrapper">
+
+            <div class="page__container">
+
+                <nav>
+                    <div class="nav__burger">
+                        <svg width="28" height="28">
+                            <use href="/assets/svg/sprite.svg#burger-menu" />
+                        </svg>
+                    </div>
+                </nav>
+
+                <section class="hero --page">
+                    <h2 class="title">Hi I'm Ed</h2>
+                    <p>I build clean and responsive website from real UI designs. Focused on HTML, CSS, JavaScript.
+                        Building practical projects to prepare for an entry-level front-end role. </p>
+                    <button class="hero__btn btn">HIRE ME</button>
+                </section>
+
+                <section class="about --page">
+                    <h2 class="title">About Me</h2>
+                    <p> I create clean, user-friendly web experiences. I enjoy turning design concepts into responsive,
+                        interactive websites that not only look great but also function seamlessly. </p>
+
+                    <p> I'm constantly learning and exploring new technologies to improve my craft, from HTML, CSS, and
+                        JavaScript to PHP and MYSQL. I thrive on challenges and enjoy finding elegant solution to
+                        complex problems.</p>
+
+                    <p> When I'm not coding, you can find me exploring design trends, experimenting with new layouts, or
+                        working on personal projects to sharpen my skills. I believe that good design and thoughtful
+                        funcitonality go hand in hand, and I'm excited to bring ideas to life through the web.
+                    </p>
+                </section>
+
+                <section class="project --page">
+                    <h2 class="title">Project</h2>
+
+                    <div class="project__container">
+
+                        <div class="card">
+                            <div class="card__img">
+                                <picture>
+                                    <source srcset="" type="image/webp">
+                                    <img src="/assets/images/shoeHub.jpeg" alt="ShoeHub">
+                                </picture>
+                            </div>
+
+                            <div class="card__content">
+                                <h3>ShoeHub</h3>
+                                <p>A responsive e-commerce landing page designed to welcome visitors with featured
+                                    sneaker collections, promotional sections, and curated product showcases.</p>
+                                <a href="https://kibikun.github.io/ShoeHub-Demo/" target="_blank"
+                                    rel="noopener noreferrer" aria-label="Visit the Demo website">View Demo ></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__img">
+                                <picture>
+                                    <source srcset="" type="image/webp">
+                                    <img src="/assets/images/shoehub-shoe.png" alt="ShoeHub">
+                                </picture>
+                            </div>
+
+                            <div class="card__content">
+                                <h3>E-commerce Shop</h3>
+                                <p>A shopping page designed to provide a smooth and intuitive browsing
+                                    experience. It features well-structured product listings, clear visual hierarchy.
+                                </p>
+                                <a href="https://kibikun.github.io/shop-demo/" target="_blank"
+                                    rel="noopener noreferrer">View Demo ></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__img">
+                                <picture>
+                                    <source srcset="" type="image/webp">
+                                    <img src="/assets/images/shoeHubShop.png" alt="ShoeHub">
+                                </picture>
+                            </div>
+
+                            <div class="card__content">
+                                <h3>Lorem Ipsum</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vitae excepturi ut animi
+                                    quia, fugit eius dolorem minus.</p>
+                                <a href="#">View Demo ></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contact --page">
+                    <h2 class="title">Contact Me</h2>
+
+                    <div class="contact__form-container">
+                        <form action="" method="post" class="contact__form">
+
+                            <div class="label__container">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name">
+                            </div>
+
+                            <div class="label__container">
+                                <label for="email">Email:</label>
+                                <input type="text" id="email" name="email" placeholder="Your Email">
+                            </div>
+
+                            <label for="msg" class="msg">Your Message: </label>
+                            <textarea name="msg" id="msg" placeholder="Your Message" class="msg"></textarea>
+                            <button type="submit" class="contact__btn btn">Send Message</button>
+                        </form>
+                    </div>
+                </section>
+
+            </div>
+            <div class="modal__overlay pop">
+                <div class="card__profile">
+
+                    <div class="pop__close">
+                        <svg width="24" height="24">
+                            <use href="/assets/svg/sprite.svg#cls-btn" id="cls-btn" />
+                        </svg>
+                    </div>
+                    <div class="card__avatar">
+                        <picture>
+                            <img src="/assets/images/avatar.avif" alt="avatar">
+                        </picture>
+                    </div>
+
+                    <h1>Ed Kerby</h1>
+                    <p>Hi! <strong>Turn code into memorable experiences. </strong> I love exploring creative ways to
+                        make websites feel intuitive and fun. Connect with me
+                        below!</p>
+
+
+                    <div class="media__icon">
+                        <a href="https://www.instagram.com/kibi1024/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Visit my Instagram profile">
+                            <svg width="25" height="25">
+                                <use href="/assets/svg/sprite.svg#instagram" />
+                            </svg>
+                        </a>
+
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kibi102499@gmail.com&su=Portfolio%20Inquiry&body=Hi%20Ed!%20I%20saw%20your%20portfolio%20and%20I%27m%20interested%20in%20working%20with%20you."
+                            target="_blank" rel="noopener noreferrer" aria-label="Send Email">
+                            <svg width="25" height="25">
+                                <use href="/assets/svg/sprite.svg#mail" />
+                            </svg>
+                        </a>
+                        <a href="https://github.com/kibikun?tab=repositories" target="_blank" rel="noopener noreferrer"
+                            aria-label="Visit my Github Repositories">
+                            <svg width="25" height="25">
+                                <use href="/assets/svg/sprite.svg#github" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="/assets/js/modal.js"></script>
+</body>
+
+</html>

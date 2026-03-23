@@ -1,0 +1,197 @@
+@media (min-width: 31.25rem) {
+    /* 500px / 16 = 31.25 */
+
+
+    /* .card {
+        min-width: 256px;
+    } */
+
+    .about,
+    .project,
+    .contact {
+        padding: 4rem;
+    }
+
+    .about p {
+
+        text-align: justify;
+        line-height: 1.5em;
+    }
+}
+
+@media (min-width: 37.5rem) {
+    /* 600 / 16 = 37.5 */
+
+    .hero p {
+        padding: 0 4rem;
+        margin: 0 4rem;
+    }
+
+    .card__profile {
+        min-width: unset;
+        right: 0;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.3);
+    }
+
+}
+
+@media (min-width: 43.75rem) {
+    /* 700 / 16 = 43.75 */
+
+    .title {
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+
+
+    .project__container {
+
+        max-height: 550px;
+    }
+
+
+
+    .card__img:nth-last-of-type(2) img {
+
+        object-position: top center;
+
+    }
+
+
+    .card {
+        min-width: 350px;
+    }
+
+    .card__content h3 {
+        margin: 1rem 0;
+        font-size: 1.8rem;
+    }
+}
+
+@media(min-width: 62.5rem) {
+    /* 1000 / 16 = 62.5*/
+
+    .contact__form-container {
+        max-width: 1000px;
+    }
+
+    .contact__form {
+        padding: 1rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .label__container {
+        width: 49%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+
+    .contact__form label {
+        display: none;
+    }
+
+
+    input[type="text"] {
+        width: 100%;
+        padding: 0.8rem;
+    }
+
+    label[for="msg"],
+    textarea {
+        margin-top: 1rem;
+        flex-basis: 100%;
+    }
+
+    textarea {
+        min-height: 200px;
+    }
+
+    .contact__btn {
+        padding: 1.5rem;
+        width: 25%;
+    }
+
+    .btn:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+        box-shadow: 0 0 8px rgba(59, 91, 146, 1);
+    }
+
+    .btn:active {
+        transform: scale(0.8);
+    }
+
+}
+
+@media (min-width: 75rem) {
+    /* 1200 / 16 = 75 */
+
+    html {
+        font-size: 75%;
+        /* 16 * 0.75 = 12px */
+    }
+
+    .wrapper {
+        position: relative;
+        display: flex;
+
+    }
+
+    nav {
+        display: none;
+    }
+
+
+    .page__container {
+        width: 75%;
+    }
+
+    .card__profile {
+        position: fixed;
+        top: 0;
+        border-top-left-radius: unset;
+        border-bottom-left-radius: unset;
+        box-shadow: unset;
+    }
+
+    .card__content p {
+        font-size: 1.3rem;
+    }
+
+    .card__content a {
+        font-size: 1.4rem;
+    }
+
+    .pop {
+        display: flex;
+    }
+
+    .modal__overlay {
+        position: fixed;
+        inset: unset;
+        background: unset;
+    }
+
+    .pop__close {
+        display: none;
+    }
+
+    .project__container {
+        max-width: 780px;
+    }
+
+    .hero,
+    .about,
+    .project {
+        margin: 0 5rem;
+    }
+
+}
