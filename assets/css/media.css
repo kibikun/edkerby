@@ -167,6 +167,7 @@
 
     .card__content p {
         font-size: 1.3rem;
+        flex-grow: 1;
     }
 
     .card__content a {
