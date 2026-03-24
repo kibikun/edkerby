@@ -67,6 +67,10 @@
         min-width: 350px;
     }
 
+    .card__content {
+        min-height: 242px;
+    }
+
     .card__content h3 {
         margin: 1rem 0;
         font-size: 1.8rem;

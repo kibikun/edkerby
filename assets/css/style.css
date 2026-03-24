@@ -139,13 +139,16 @@ nav {
     border-top-right-radius: 5px;
 }
 
+
 .card__content {
+    min-height: 225px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: 10px;
     color: #3e3e3e;
 }
+
 
 .card__content h3 {
     margin-top: 1rem;
