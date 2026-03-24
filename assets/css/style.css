@@ -159,6 +159,7 @@ nav {
 
 .card__content p {
     color: #000;
+    flex-grow: 1;
 }
 
 .card__content a {
