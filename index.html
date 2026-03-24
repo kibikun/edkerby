@@ -115,20 +115,21 @@
                     <h2 class="title">Contact Me</h2>
 
                     <div class="contact__form-container">
-                        <form action="" method="post" class="contact__form">
+                        <form action="https://formspree.io/f/mwvrgrda" method="POST" class="contact__form"
+                            id="contact__form">
 
                             <div class="label__container">
                                 <label for="name">Name:</label>
-                                <input type="text" id="name" name="name" placeholder="Your Name">
+                                <input type="text" id="name" name="name" placeholder="Jonnah Smith" required>
                             </div>
 
                             <div class="label__container">
                                 <label for="email">Email:</label>
-                                <input type="text" id="email" name="email" placeholder="Your Email">
+                                <input type="text" id="email" name="email" placeholder="js@example.com" required>
                             </div>
 
                             <label for="msg" class="msg">Your Message: </label>
-                            <textarea name="msg" id="msg" placeholder="Your Message" class="msg"></textarea>
+                            <textarea name="msg" id="msg" placeholder="Your Message" class="msg" required></textarea>
                             <button type="submit" class="contact__btn btn">Send Message</button>
                         </form>
                     </div>
@@ -180,10 +181,9 @@
             </div>
 
         </div>
-
     </main>
 
-    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

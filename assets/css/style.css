@@ -208,10 +208,21 @@ textarea {
     resize: none;
 }
 
-input[type="text"],
+input[type="text"]:focus,
 textarea:focus {
-    outline: none;
+    outline: 2px solid #e59700;
 }
+
+input::placeholder,
+textarea::placeholder {
+    transition: opacity 0.2s ease;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+    opacity: 0;
+}
+
 
 .contact__btn {
     width: 100%;
