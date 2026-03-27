@@ -2,8 +2,9 @@ const btn = document.querySelector('.nav__burger');
 const profile = document.querySelector('.modal__overlay');
 const closeBtn = document.getElementById('cls-btn');
 const form = document.getElementById("contact__form");
+
 btn.addEventListener('click', () => {
-    profile.classList.toggle('pop');
+    profile.classList.remove('pop');
 
 });
 

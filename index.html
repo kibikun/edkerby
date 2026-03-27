@@ -119,21 +119,27 @@
                     <h2 class="title">Contact Me</h2>
 
                     <div class="contact__form-container">
+                        <div class="contact__content">
+                            <h3>Interested in working together? Get in touch using the contact details below.</h3>
+
+                            <p><span>Phone</span> +63 977 614 3095</p>
+                            <p><span>Email</span> kibi102499@gmail.com</p>
+                        </div>
                         <form action="https://formspree.io/f/mwvrgrda" method="POST" class="contact__form"
                             id="contact__form">
 
                             <div class="label__container">
-                                <label for="name">Name:</label>
-                                <input type="text" id="name" name="name" placeholder="Jonnah Smith" required>
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" placeholder="" required>
                             </div>
 
                             <div class="label__container">
-                                <label for="email">Email:</label>
-                                <input type="text" id="email" name="email" placeholder="js@example.com" required>
+                                <label for="email">Email *</label>
+                                <input type="text" id="email" name="email" placeholder="" required>
                             </div>
 
-                            <label for="msg" class="msg">Your Message: </label>
-                            <textarea name="msg" id="msg" placeholder="Your Message" class="msg" required></textarea>
+                            <label for="msg" class="msg">Write a message *</label>
+                            <textarea name="msg" id="msg" placeholder="" class="msg" required></textarea>
                             <button type="submit" class="contact__btn btn">Send Message</button>
                         </form>
                     </div>
@@ -143,9 +149,9 @@
             <div class="modal__overlay pop">
                 <div class="card__profile">
 
-                    <div class="pop__close">
+                    <div class="pop__close" id="cls-btn">
                         <svg width="24" height="24">
-                            <use href="assets/svg/sprite.svg#cls-btn" id="cls-btn" />
+                            <use href="assets/svg/sprite.svg#cls-btn" />
                         </svg>
                     </div>
                     <div class="card__avatar">
@@ -155,7 +161,7 @@
                     </div>
 
                     <h1>Ed Kerby</h1>
-                    <p>Hi! <strong>Turn code into memorable experiences. </strong> I love exploring creative ways to
+                    <p>Hi! <strong>I Turn code into memorable experiences. </strong> I love exploring creative ways to
                         make websites feel intuitive and fun. Connect with me
                         below!</p>
 
