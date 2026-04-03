@@ -177,11 +177,9 @@ nav {
 }
 
 .contact__form-container {
-    /* border: 2px solid #111111; */
     width: 95%;
     max-width: 500px;
     padding: 1.5rem;
-    /* box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3); */
 }
 
 .contact__form {
@@ -193,7 +191,6 @@ nav {
 
 .contact__form label {
     font-size: 1.1rem;
-    /* font-weight: 600; */
 }
 
 .label__container {
@@ -213,9 +210,7 @@ textarea {
     border-right: none;
     border-bottom: 2px solid #111111;
     border-left: none;
-    /* border-radius: 2px; */
     background-color: #ede2d7;
-    /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); */
 }
 
 textarea {
@@ -225,7 +220,6 @@ textarea {
 
 input[type="text"]:focus,
 textarea:focus {
-    /* outline: 2px solid #e59700; */
     outline: none;
 }
 
