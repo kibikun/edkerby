@@ -17,3 +17,10 @@ window.onbeforeunload = () => {
         form.reset();
     }
 }
+
+const container = document.querySelector('.project__container');
+
+container.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    container.scrollLeft += e.deltaY;
+});

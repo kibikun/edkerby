@@ -176,6 +176,12 @@
         box-shadow: unset;
     }
 
+    .card__content {
+        flex-grow: 1;
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
     .card__content p {
         font-size: 1.3rem;
     }
